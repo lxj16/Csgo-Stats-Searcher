@@ -1,0 +1,22 @@
+{
+  "name": "ow-tracker",
+  "version": "1.0.0",
+  "description": "Track stats for overwatch\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[O",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "app": "nodemon app",
+    "client": "npm run serve --prefix client",
+    "dev": "concurrently \"npm run app\" \"npm run client\""
+  },
+  "author": "XIAOJIE LI",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0"
+  }
+}
